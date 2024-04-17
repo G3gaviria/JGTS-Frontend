@@ -39,5 +39,6 @@ jobs:
         run: aws s3 rm s3://practica-angular --recursive
       
       - name: aws s3 upload archives
-        run: aws s3 cp ./dist/spotify/browser s3://practica-angular --recursive
+        run: echo "Hola perras"
+        # run: aws s3 cp ./dist/spotify/browser s3://practica-angular --recursive
         
