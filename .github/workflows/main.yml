@@ -40,5 +40,5 @@ jobs:
       
       - name: aws s3 upload archives
         # run: cd dist  && ls && cd spotify && ls && cd browser && ls
-        run: aws s3 cp ./dist/spotify s3://practica-angular --recursive
+        # run: aws s3 cp ./dist/spotify s3://practica-angular --recursive
         
