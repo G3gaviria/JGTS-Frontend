@@ -7,7 +7,7 @@
       "type": "chrome",
       "request": "launch",
       "preLaunchTask": "npm: start",
-      "url": "ec2-18-207-93-242.compute-1.amazonaws.com/"
+      "url": "ec2-18-207-93-242.compute-1.amazonaws.com/api"
     },
     {
       "name": "ng test",
