@@ -277,6 +277,25 @@ height: -20px;
 
 
 
+@media (min-width: 390px) {
+
+  .iconosReproductor {
+    width: 40;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+
+}
+
+
+.card__btn-play {
+transform: translateX(-22rem);
+height: -20px;
+}
+
+
+
 
 
 
@@ -286,23 +305,16 @@ height: -20px;
 @media (min-width: 768px) {
 
   .iconosReproductor {
-    width: 0;
+    width: 500;
     margin-left: 0;
     margin-right: 0;
   }
 
-  .card__wrapper {
-    display:none;
 
-  }
-
-.slider {
-display: none;
-}
 
 
 .card__btn-play {
-transform: translateX(250px);
+transform: translateX(10px);
 height: -20px;
 }
 
