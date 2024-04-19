@@ -1,14 +1,16 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Router } from '@angular/router';
-import { Observable } from 'rxjs'
+import { environment } from '../../../../src/environments/environment';
+
+
 @Injectable({
   providedIn: 'root'
 })
 export class SpotifyAPIService {
 
   private HttpClient = inject(HttpClient)
-  private urlApi: string = " http://18.207.93.242/api"
+  private urlApi: string = environment.url
 
 
 
