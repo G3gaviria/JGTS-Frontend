@@ -39,9 +39,6 @@ export class PrincipalComponent {
     }
 
 
-
-
-
     this.cancionesService.getCanciones().subscribe({
       next: (canciones) => {
         this.cancionesData.set(canciones)
