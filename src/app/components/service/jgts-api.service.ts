@@ -22,7 +22,6 @@ export class JgtsAPIService {
   }
 
   getArtista(idArtista: string | null) {
-    console.log('--------------')
     return this.http.get(`${this.urlApi}/find-artist/${idArtista}`)
   }
 
