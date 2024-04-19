@@ -23,13 +23,13 @@ export class ZoomComponent {
   }
 
   toggleAudio(url: string): void {
-    url = "http://localhost:4001/" + url
+    url = "http://18.207.93.242/api/" + url
     if (this.audio.paused || this.audio.src !== url) {
       this.audio.src = url;
       this.audio.play();
       this.iconPlay = "assets/img/reproductor/pause.svg"
     } else {
-      this.iconPlay= "assets/img/reproductor/play.svg"
+      this.iconPlay = "assets/img/reproductor/play.svg"
       this.audio.pause();
     }
   }

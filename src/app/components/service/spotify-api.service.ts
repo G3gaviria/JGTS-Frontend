@@ -8,7 +8,7 @@ import { Observable } from 'rxjs'
 export class SpotifyAPIService {
 
   private HttpClient = inject(HttpClient)
-  private urlApi: string = "http://18.207.93.242/api"
+  private urlApi: string = " http://18.207.93.242/api"
 
 
 
