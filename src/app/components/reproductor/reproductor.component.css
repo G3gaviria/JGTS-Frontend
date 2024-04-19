@@ -284,7 +284,32 @@ height: -20px;
     margin-left: 0;
     margin-right: 0;
   }
+  .iconosReproductor {
+    width: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
+  .card__wrapper {
+    display:none;
+
+  }
+  .heart-container {
+display: none;
+
+  }
+
+.slider {
+display: none;
+}
+
+
+.card__btn-play {
+transform: translateX(-22rem);
+height: -20px;
+}
+
+}
 
 }
 
