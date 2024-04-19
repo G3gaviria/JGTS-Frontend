@@ -23,7 +23,7 @@ export class ZoomComponent {
   }
 
   toggleAudio(url: string): void {
-    url = "http://18.207.93.242/api/" + url
+    url = "http://18.207.93.242/" + url
     if (this.audio.paused || this.audio.src !== url) {
       this.audio.src = url;
       this.audio.play();
