@@ -245,7 +245,45 @@ img {
 
 
 
-@media (max-width: 768px) {
+
+@media (max-width: 390px) {
+
+  .iconosReproductor {
+    width: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card__wrapper {
+    display:none;
+
+  }
+  .heart-container {
+display: none;
+
+  }
+
+.slider {
+display: none;
+}
+
+
+.card__btn-play {
+transform: translateX(-22rem);
+height: -20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
 
   .iconosReproductor {
     width: 0;

@@ -109,8 +109,171 @@
 
 
 
+@media (max-width: 390px) {
+  .caja {
+    width: 80px;
+    height: 90px;
+    background-color: #121212;
+    border-radius: 15px;
+    margin-left: -5px;
+  }
 
-@media (max-width: 768px) {
+  .textoCaja {
+    font-weight: 200px;
+    color: #fff;
+    display: flex;
+    font-size: 0px;
+  }
+
+  .tama {
+    height: 24px;
+  }
+
+
+
+  .caja2 {
+    width: 80px;
+    height: 200px;
+    background-color: #121212;
+    border-radius: 15px;
+    transform: translateY(-70px);
+    margin-left:-5px;
+  }
+
+  .caja3 {
+    width: 80px;
+    height: 115px;
+    background-color: #121212;
+    border-radius: 15px;
+    margin-left: -5px;
+transform: translateY(-70px);
+  }
+
+  .colortexto {
+    color: #d3c4c4;
+  }
+
+  .cajaFoto {
+    width: 75px;
+  }
+
+  .btn {
+    font-size: 19px;
+    display: inline-block;
+    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+  }
+
+  .alturaNavLateral {
+    height: 10px;
+  }
+
+  .favoritos {
+    background-color: #121212;
+    border: none;
+    width: 100%;
+  }
+
+  .playlist {
+    font-size:15px;
+    display: none;
+}
+
+.favoritostext{
+  display: none;
+}
+}
+
+
+
+@media (min-width: 390px) {
+  .caja {
+    width: 80px;
+    height: 90px;
+    background-color: #121212;
+    border-radius: 15px;
+    margin-left: -5px;
+  }
+
+  .textoCaja {
+    font-weight: 200px;
+    color: #fff;
+    display: flex;
+    font-size: 0px;
+  }
+
+  .tama {
+    height: 24px;
+  }
+
+
+
+  .caja2 {
+    width: 80px;
+    height: 200px;
+    background-color: #121212;
+    border-radius: 15px;
+    transform: translateY(-70px);
+    margin-left:-5px;
+  }
+
+  .caja3 {
+    width: 80px;
+    height: 115px;
+    background-color: #121212;
+    border-radius: 15px;
+    margin-left: -5px;
+transform: translateY(-70px);
+  }
+
+  .colortexto {
+    color: #d3c4c4;
+  }
+
+  .cajaFoto {
+    width: 75px;
+  }
+
+  .btn {
+    font-size: 19px;
+    display: inline-block;
+    font-weight: 500;
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+  }
+
+  .alturaNavLateral {
+    height: 10px;
+  }
+
+  .favoritos {
+    background-color: #121212;
+    border: none;
+    width: 100%;
+  }
+
+  .playlist {
+    font-size:15px;
+    display: none;
+}
+
+.favoritostext{
+  display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
   .caja {
     width: 80px;
     height: 90px;

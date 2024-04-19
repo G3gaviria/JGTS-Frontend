@@ -134,7 +134,146 @@ img {
 }
 
 
-@media (max-width: 768px) {
+
+
+
+@media (max-width: 390px) {
+
+  .fondo{
+    width: 270px;
+    ;
+  }
+
+  .textp {
+   font-size: 25px;
+   text-align: left;
+  }
+
+  .carad2 {
+    width: 200px;
+  }
+
+  .cajaSliderAlbunes {
+    width: 90vh;
+    overflow: auto;
+    align-items: center;
+    gap: 190px;
+  }
+
+  .cajaArtistas {
+    width: 220px;
+    height: 220;
+    margin-left: 25px;
+  }
+
+  .circuloArtista {
+    width: 180px;
+    height: 180px;
+  }
+
+  .textCantante {
+    margin-top: 10px;
+  }
+
+  .txtArtistaFinal {
+    font-size: 12px;
+}
+}
+@media (min-width: 390px) {
+
+  .fondo{
+    width: 270px;
+    ;
+  }
+
+  .textp {
+   font-size: 25px;
+   text-align: left;
+  }
+
+  .carad2 {
+    width: 200px;
+  }
+
+  .cajaSliderAlbunes {
+    width: 90vh;
+    overflow: auto;
+    align-items: center;
+    gap: 190px;
+  }
+
+  .cajaArtistas {
+    width: 220px;
+    height: 220;
+    margin-left: 25px;
+  }
+
+  .circuloArtista {
+    width: 180px;
+    height: 180px;
+  }
+
+  .textCantante {
+    margin-top: 10px;
+  }
+
+  .txtArtistaFinal {
+    font-size: 12px;
+}
+}
+
+
+@media (min-width: 768px) {
+
+  .fondo{
+    width: 1155px;
+    ;
+  }
+
+  .textp {
+   font-size: 35px;
+   text-align: left;
+  }
+
+  .carad2 {
+    width: 200px;
+  }
+
+  .cajaSliderAlbunes {
+    width: 90vh;
+    overflow: auto;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .cajaArtistas {
+    width: 220px;
+    height: 220;
+    margin-left: 25px;
+  }
+
+  .circuloArtista {
+    width: 180px;
+    height: 180px;
+  }
+
+  .textCantante {
+    margin-top: 10px;
+  }
+
+  .txtArtistaFinal {
+    font-size: 12px;
+}
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
 
   .fondo{
     width: 400px;
