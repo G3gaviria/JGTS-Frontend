@@ -298,25 +298,11 @@ display: none;
 
 
 .card__btn-play {
-transform: translateX(-22rem);
+transform: translateX(2rem);
 height: -20px;
 }
 
 }
-
-
-
-
-.card__btn-play {
-transform: translateX(-22rem);
-height: -20px;
-}
-
-
-
-
-
-
 
 
 
