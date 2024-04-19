@@ -227,6 +227,7 @@ transform: translateX(190px);
 .menu{
   height: 30px;
   margin-left:9px;
+  transform: translateX(200px);
 
 }
 .paste-button {

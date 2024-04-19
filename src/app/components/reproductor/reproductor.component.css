@@ -280,14 +280,7 @@ height: -20px;
 @media (min-width: 390px) {
 
   .iconosReproductor {
-    width: 40;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .iconosReproductor {
-    width: 0;
-    margin-left: 0;
-    margin-right: 0;
+display: none;
   }
 
   .card__wrapper {
@@ -311,7 +304,7 @@ height: -20px;
 
 }
 
-}
+
 
 
 .card__btn-play {
@@ -330,9 +323,7 @@ height: -20px;
 @media (min-width: 768px) {
 
   .iconosReproductor {
-    width: 500;
-    margin-left: 0;
-    margin-right: 0;
+    display: flex;
   }
 
 
@@ -341,6 +332,19 @@ height: -20px;
 .card__btn-play {
 transform: translateX(10px);
 height: -20px;
+}
+
+.card__wrapper {
+  display:flex;
+
+}
+.heart-container {
+display: flex;
+
+}
+
+.slider {
+display: flex;
 }
 
 }
