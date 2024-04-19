@@ -8,7 +8,7 @@ import { Observable } from 'rxjs'
 export class JgtsAPIService {
 
   private http = inject(HttpClient)
-  private urlApi: string = "http://18.207.93.242/"
+  private urlApi: string = "http://18.207.93.242"
 
 
   constructor() { }

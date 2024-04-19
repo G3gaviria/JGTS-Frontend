@@ -4,7 +4,7 @@
   </div>
   <div class="row row-cols-1 row-cols-md-5 g-6 ms-5 ">
     @for (songData of cancionesData(); track songData.albumId) {
-    <app-canciones-grilla [imagenCancion]="'http://18.207.93.242/'+songData.image" [cancion]="songData.name"
+    <app-canciones-grilla [imagenCancion]="'http://18.207.93.242'+songData.image" [cancion]="songData.name"
       [cantante]="songData.artistId" [album]="songData .albumId">
     </app-canciones-grilla>
     }
